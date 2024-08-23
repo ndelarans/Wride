@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-contact">
+        <header class="header-contact">
+            <h1 class="title-contact">Wride</h1>
+            <p class="subtitle-contact">Journeying together, mile by mile</p>
+            <nav class="nav-contact">
+                <a href="index.html">Home</a> | 
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <div class="advertisement-contact">
+            <div class="image-placeholder-contact">
+                <img src="Images/Wride3.jpg" alt="Product advertisement image">
+            </div>
+            <div class="text-placeholder-contact">
+                <p>At Wride, we are committed to the well-being and safety of our clients. If you have any questions or need more information, please send us your details and complete our contact form. We are here to assist you and ensure you receive the attention you deserve</p>
+            </div>
+        </div>
+        <div class="form-contact">
+            <h1>Contact Form</h1>
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required pattern="\d*">
+
+                <label for="message">Tell us your requirements:</label>
+                <textarea id="message" name="message" rows="4" maxlength="255" required></textarea>
+                <p id="charCount"></p>
+
+    
+                <button type="submit">Submit</button>
+            </form>
+            <div class="container-contact">
+
+            </div>
+
+            <script>
+                document.getElementById('phone').addEventListener('input', function (e) {
+                    this.value = this.value.replace(/\D/g, '');
+                });
+            
+                const messageField = document.getElementById('message');
+                const charCount = document.getElementById('charCount');
+            
+                messageField.addEventListener('input', function (e) {
+                    const maxLength = 255;
+                    const currentLength = this.value.length;
+            
+                    if (currentLength >= maxLength) {
+                        charCount.textContent = 'You have reached the 255 character limit.';
+                        e.preventDefault();
+                    } else {
+                        charCount.textContent = `${currentLength}/${maxLength} characters`;
+                    }
+                });
+            </script>
+            </body>
+            </html>
+            
+        </div>
+    </div>
+    
+    
