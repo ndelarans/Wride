@@ -1,10 +1,10 @@
-﻿\# README - Wride Web Page
+﻿# README - Wride Web Page
 
-\## Project Overview
+## Project Overview
 
 This project involves creating a web page for Wride, a specialized transportation service for women. The website includes a homepage and a contact page, designed to be both visually appealing and functional. The homepage highlights the service's features and offers, while the contact page provides a registration form with specific validations.
 
-\## Project Structure
+## Project Structure
 
 The project directory includes the following files:
 
@@ -14,16 +14,17 @@ The project directory includes the following files:
 - `img/`: Folder containing images and icons used on the website.
 - `README.md`: This file, providing an overview of the project.
 
-\## Homepage (`index.html`)
+## Homepage (`index.html`)
 
 The homepage is designed to capture attention and effectively communicate Wride's offerings. Key features include:
 
-\### Header
+### Header
 
 - Displays the Wride name and tagline.
 - Contains navigation links to the homepage and contact page.
 
-\### Sections
+
+### Sections
 
 - \*\*Section 1\*\*: Features a full-width image with a centered title and description.
 - \*\*Section 2\*\*: Contains another full-width image to emphasize key information.
@@ -31,46 +32,46 @@ The homepage is designed to capture attention and effectively communicate Wride'
 - \*\*Section 4\*\*: A call-to-action section with a heading, description, and icons for the App Store and Play Store.
 - \*\*Section 5\*\*: Showcases a full-width image without borders.
 
-\### Design Techniques
+### Design Techniques
 
 - \*\*CSS Grid\*\*: Used to create the layout for various sections of the homepage.
 - \*\*CSS Flexbox\*\*: Applied for centering and aligning text and icons.
 
-\## Contact Page (`contact.html`)
+## Contact Page (`contact.html`)
 
 The contact page features a registration form with the following elements:
 
-\### Form Fields
+### Form Fields
 
 - \*\*First Name and Last Name\*\*: Required text fields.
 - \*\*Email\*\*: A required field with validation to ensure it follows the correct email format.
 - \*\*Phone Number\*\*: A required field that only accepts numerical input.
 - \*\*Requirements\*\*: A textarea that accepts a maximum of 255 characters.
 
-\### Form Behavior
+### Form Behavior
 
 - \*\*Validation\*\*: Checks for valid email format, numerical phone number, and textarea length.
 - \*\*Submission\*\*: The form resets and refreshes the page upon successful validation.
 
-\### Design Techniques
+### Design Techniques
 
 - \*\*CSS Grid\*\*: Utilized to position the form and image sections.
 - \*\*CSS Flexbox\*\*: Used for centering content within the form and image sections.
 
-\## CSS Styles (`styles.css`)
+## CSS Styles (`styles.css`)
 
 The CSS file provides styles for both pages, focusing on:
 
-\### Layout
+### Layout
 
 - \*\*CSS Grid\*\*: Defines the overall structure and layout of the pages.
 - \*\*CSS Flexbox\*\*: Enhances the alignment and positioning of elements within sections.
 
-\### Design
+### Design
 
 - Ensures a cohesive look and feel with consistent fonts, colors, and spacing.
 
-\## Additional Instructions
+## Additional Instructions
 
 - Place all images and icons in the `img` folder.
 - Link the `styles.css` file to both `index.html` and `contact.html`.
