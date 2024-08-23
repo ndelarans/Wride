@@ -26,16 +26,16 @@ The homepage is designed to capture attention and effectively communicate Wride'
 
 ### Sections
 
-- \*\*Section 1\*\*: Features a full-width image with a centered title and description.
-- \*\*Section 2\*\*: Contains another full-width image to emphasize key information.
-- \*\*Section 3\*\*: Includes centered text with a heading and description, along with SVG icons representing a car and a house.
-- \*\*Section 4\*\*: A call-to-action section with a heading, description, and icons for the App Store and Play Store.
-- \*\*Section 5\*\*: Showcases a full-width image without borders.
+- **Section 1**: Features a full-width image with a centered title and description.
+- **Section 2**: Contains another full-width image to emphasize key information.
+- **Section 3**: Includes centered text with a heading and description, along with SVG icons representing a car and a house.
+- **Section 4**: A call-to-action section with a heading, description, and icons for the App Store and Play Store.
+- **Section 5***: Showcases a full-width image without borders.
 
 ### Design Techniques
 
-- \*\*CSS Grid\*\*: Used to create the layout for various sections of the homepage.
-- \*\*CSS Flexbox\*\*: Applied for centering and aligning text and icons.
+- **CSS Grid**: Used to create the layout for various sections of the homepage.
+- **CSS Flexbox**: Applied for centering and aligning text and icons.
 
 ## Contact Page (`contact.html`)
 
@@ -43,20 +43,20 @@ The contact page features a registration form with the following elements:
 
 ### Form Fields
 
-- \*\*First Name and Last Name\*\*: Required text fields.
-- \*\*Email\*\*: A required field with validation to ensure it follows the correct email format.
-- \*\*Phone Number\*\*: A required field that only accepts numerical input.
-- \*\*Requirements\*\*: A textarea that accepts a maximum of 255 characters.
+- **First Name and Last Name**: Required text fields.
+- **Email**: A required field with validation to ensure it follows the correct email format.
+- **Phone Number**: A required field that only accepts numerical input.
+- **Requirements**: A textarea that accepts a maximum of 255 characters.
 
 ### Form Behavior
 
-- \*\*Validation\*\*: Checks for valid email format, numerical phone number, and textarea length.
-- \*\*Submission\*\*: The form resets and refreshes the page upon successful validation.
+- **Validation**: Checks for valid email format, numerical phone number, and textarea length.
+- **Submission**: The form resets and refreshes the page upon successful validation.
 
 ### Design Techniques
 
-- \*\*CSS Grid\*\*: Utilized to position the form and image sections.
-- \*\*CSS Flexbox\*\*: Used for centering content within the form and image sections.
+- **CSS Grid**: Utilized to position the form and image sections.
+- **CSS Flexbox**: Used for centering content within the form and image sections.
 
 ## CSS Styles (`styles.css`)
 
@@ -64,8 +64,8 @@ The CSS file provides styles for both pages, focusing on:
 
 ### Layout
 
-- \*\*CSS Grid\*\*: Defines the overall structure and layout of the pages.
-- \*\*CSS Flexbox\*\*: Enhances the alignment and positioning of elements within sections.
+- **CSS Grid**: Defines the overall structure and layout of the pages.
+- **CSS Flexbox**: Enhances the alignment and positioning of elements within sections.
 
 ### Design
 
