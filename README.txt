@@ -1,4 +1,4 @@
-#README - Wride Web Page
+# README - Wride Web Page
 Project Overview
 This project involves creating a web page for Wride, a specialized transportation service for women. The website includes a homepage and a contact page, designed to be both visually appealing and functional. The homepage highlights the service's features and offers, while the contact page provides a registration form with specific validations.
 
